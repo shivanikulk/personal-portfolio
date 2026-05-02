@@ -1,0 +1,61 @@
+[
+  {
+    "section": "Featured Work",
+    "items": [
+      {
+        "size": "medium",
+        "caption": "UX, B2B, SaaS, Product Design",
+        "description": "Redesigning the Pricing Experience to Align User and Business Goals",
+        "image": "assets/thumbnails/1thumbnail.gif",
+        "url": "https://www.behance.net/gallery/246061839/Case-Study-UX-UI"
+      },
+      {
+        "size": "medium",
+        "caption": "Experience Design, Product Design, App",
+        "description": "Reducing fatigue in Museum Experience through Interactive Design and Rest",
+        "image": "assets/thumbnails/2thumbnail.gif",
+        "url": "https://www.behance.net/gallery/231492495/WIP-Museum-Experience"
+      },
+      {
+        "size": "medium",
+        "caption": "Wayfinding, Mobile UX, Visual Design",
+        "description": "Simplifying Airport Navigation Through Intuitive Wayfinding",
+        "image": "assets/thumbnails/3thumbnail.gif",
+        "url": "https://www.behance.net/gallery/219653055/Wayfinding-UX-UI"
+      },
+      {
+        "size": "medium",
+        "caption": "Visualization, Illustration, Visual Design",
+        "description": "Turning Trek Data into an Illustrative Map for Indiahikes",
+        "image": "assets/thumbnails/4thumbnail.gif",
+        "url": "https://www.behance.net/gallery/171133263/Designing-a-Map-for-Indiahikes"
+      }
+    ]
+  },
+  {
+    "section": "AI Explorations",
+    "items": [
+      {
+        "size": "medium",
+        "caption": "Claude, Codex, HTML, CSS",
+        "description": "Building a Portfolio Landing Page",
+        "image": "assets/thumbnails/aurora-gradient1.jpeg",
+        "url": "portfolio-landing-page.html"
+      },
+      {
+        "size": "small",
+        "caption": "HTML, Figma Make, Claude",
+        "description": "Prototyping Interactive Puzzle",
+        "image": "assets/thumbnails/aurora-gradient2.jpeg",
+        "url": "interactive-puzzle-case-study.html"
+      },
+      {
+        "size": "small",
+        "caption": "Click",
+        "description": "More Projects",
+        "image": "assets/thumbnails/do_yoga.png",
+        "url": "https://behance.net"
+      }
+    ]
+  }
+]
