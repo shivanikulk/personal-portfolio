@@ -37,24 +37,24 @@
     "items": [
       {
         "size": "medium",
-        "caption": "Claude, Codex, HTML, CSS",
+        "caption": "Claude, Codex, HTML, CSS, GitHub",
         "description": "Building a Portfolio Landing Page",
         "image": "assets/thumbnails/aurora-gradient1.jpeg",
         "url": "portfolio-landing-page.html"
       },
       {
         "size": "small",
-        "caption": "HTML, Figma Make, Claude",
+        "caption": "Figma, Claude, HTML",
         "description": "Prototyping Interactive Puzzle",
         "image": "assets/thumbnails/aurora-gradient2.jpeg",
         "url": "interactive-puzzle-case-study.html"
       },
       {
         "size": "small",
-        "caption": "Click",
+        "caption": "",
         "description": "More Projects",
         "image": "assets/thumbnails/do_yoga.png",
-        "url": "https://behance.net"
+        "url": "https://www.behance.net/kulkarnishivani"
       }
     ]
   }

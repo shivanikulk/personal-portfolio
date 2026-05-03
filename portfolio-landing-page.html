@@ -85,9 +85,7 @@
     }
 
     .hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-      gap: 28px;
+
       align-items: stretch;
       margin-bottom: 28px;
     }
@@ -390,7 +388,7 @@
         <div class="eyebrow">AI Exploration</div>
         <h1>Building a Portfolio Landing Page</h1>
         <p class="hero-summary">
-          This project explored how to use AI as a serious design and implementation partner rather than a shortcut generator. The goal was to ship a portfolio landing page that felt configurable, production-minded, and visually deliberate, while documenting a workflow that combined rapid iteration with product-level judgment.
+          This project explored how to use AI as a design and implementation partner rather than a quick fix tool. The goal was to ship a portfolio landing page that felt concise, credible and visually engaging, while documenting a workflow that combined rapid iteration with product-level judgment.
         </p>
 
         <div class="meta-grid">
@@ -400,7 +398,7 @@
           </div>
           <div class="meta-item">
             <div class="meta-label">Tools</div>
-            <div class="meta-value">Codex, Claude,<br />HTML, CSS, JavaScript</div>
+            <div class="meta-value">Figma, Codex, Claude,<br />HTML, CSS, JavaScript, GitHub</div>
           </div>
           <div class="meta-item">
             <div class="meta-label">Focus</div>
@@ -409,12 +407,7 @@
         </div>
       </div>
 
-      <aside class="hero-panel">
-        <div class="hero-note">
-          <strong>Why this matters</strong>
-          The artifact is not just the page itself. The real deliverable is the workflow: defining structure, pressure-testing UI decisions, and translating design intent into an editable system that can evolve without rewriting code.
-        </div>
-      </aside>
+    
     </section>
 
     <section class="content-grid">
@@ -425,7 +418,7 @@
             <span class="section-index">01</span>
           </div>
           <p>
-            The starting point was a lightweight portfolio site, but the design challenge was broader than building a landing page. The objective was to create a portfolio experience that could scale across different project types, support varied media formats, and feel intentional.
+            The starting point was a lightweight portfolio html landing page, but the design challenge was broader than that; the objective was to create a portfolio experience that could scale across different project types, support varied media formats, and feel intentional.
           </p>
         </article>
 
@@ -435,7 +428,7 @@
             <span class="section-index">02</span>
           </div>
           <p>
-            The workflow deliberately split responsibilities between models. Codex was used as the implementation partner: it inspected the codebase, updated the rendering logic, created configuration hooks, and translated design requirements into working HTML, CSS, and JavaScript. Claude was used as a critique and synthesis partner: helping refine narrative clarity, stress-test framing, and push the articulation of design intent beyond a purely functional explanation.
+            The workflow deliberately split responsibilities between models. Codex was used as the implementation partner: it inspected the codebase, updated the rendering logic, created configuration hooks, and translated design requirements into working HTML, CSS, and JavaScript. Claude was used as a critique and synthesis partner: helping with narrative clarity and to articulate the design intent beyond a purely functional explanation.
           </p>
           <div class="callout">
             The key pattern was not "ask AI for a page." It was: define an intent, evaluate the output critically, tighten the system, and use each model for the kind of reasoning it is strongest at.
@@ -457,12 +450,12 @@
           </p>
           <div class="process-grid">
             <div class="process-step">
-              <h3>Step 1: Systemize content</h3>
-              <p>Move profile, links, and projects into structured JSON so the experience could be edited without touching rendering code.</p>
+              <h3>Step 1: Systemize content data</h3>
+              <p>Move profile, links and projects into structured JSON so the experience could be edited without touching rendering code.</p>
             </div>
             <div class="process-step">
-              <h3>Step 2: Improve card semantics</h3>
-              <p>Differentiate project metadata, description, and caption to create stronger scanning behavior on the tile itself.</p>
+              <h3>Step 2: Improve card hierarchy</h3>
+              <p>Differentiate project data, description, and caption to lead the viewer so it is easy to scan at a glance.</p>
             </div>
             <div class="process-step">
               <h3>Step 3: Add layout controls</h3>
@@ -470,7 +463,7 @@
             </div>
             <div class="process-step">
               <h3>Step 4: Fix responsive behavior</h3>
-              <p>Replace brittle fixed-height logic with more resilient responsive sizing so images and GIFs remained readable across breakpoints.</p>
+              <p>Replace brittle fixed-height logic with more resilient responsive sizing so images and GIFs remained readable across devices.</p>
             </div>
           </div>
         </article>
@@ -481,13 +474,12 @@
             <span class="section-index">04</span>
           </div>
           <p>
-            The strongest design decision in this project was to treat the project tiles as narrative surfaces instead of decorative containers. Descriptions were moved into the tile, captions were separated from the supporting story, and the card sizing model was made explicit with small, medium, and large states. This created clearer hierarchy and gave the layout a more editorial, portfolio-specific rhythm.
+            The strongest design decision in this project was to treat the project tiles as narrative surfaces instead of decorative containers. Descriptions were moved into the tile, captions were separated from the supporting story, and the card sizing model was made explicit with small, medium, and large forms. This created clearer hierarchy and gave the layout a more editorial look.
           </p>
           <ul class="bullet-list">
-            <li>Sections became optional so the portfolio could support both grouped case studies and simple project streams.</li>
             <li>Item-level size controls made the layout more expressive without introducing a heavy CMS.</li>
-            <li>Text rendering was updated to support line breaks and tabs directly from JSON, improving control over copy presentation.</li>
-            <li>Image and GIF handling was tuned to preserve legibility rather than aggressively crop media for fill.</li>
+            <li>Text rendering was updated to support line breaks and tabs directly from JSON, giving more control over the copy.</li>
+            <li>Image and GIF handling was adjusted to prioritize legibility rather than abruptly cropping media for container fill.</li>
           </ul>
         </article>
       </div>
@@ -511,11 +503,13 @@
         </div>
 
         <div class="outcome-card">
-          <h3>Scope of contribution</h3>
+          <h3>What I learnt </h3>
           <ul class="outcome-list">
-            <li>Defined the narrative structure of the case study.</li>
-            <li>Directed the visual and interaction refinements across iterations.</li>
-            <li>Used AI models differently based on their strengths: implementation, critique, and synthesis.</li>
+            <li>Leveraging AI to partner in the creative process of designing a webpage.</li>
+            <li>Editing JSON-Files with VS Code.</li>
+            <li>Using GitHub to manage source code.</li>
+            <li>Deploying a Website using GitHub Pages and connecting it to a custom domain.</li>
+            <li>Used AI models differently based on their strengths: implementation, critique and synthesis.</li>
           </ul>
         </div>
       </aside>
